@@ -18,7 +18,6 @@ interface NotificationChannel {
 }
 
 // 2. Implementaciones de Canales de Comunicación
-
 class EmailChannel implements NotificationChannel {
   send(message: string): void {
     console.log(`Enviando correo electrónico: ${message}`);
